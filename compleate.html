@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login And Registration form Design</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'> 
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+		<link rel="stylesheet" type="text/css" href="complete.css">
+		
+</head>
+<body>
+  <div class="container" id="container">
+    <div class="col-md-3 Sign-Page log1" id="sub-container1">
+      <div class="div">
+     <h2>WelCome Back!</h2>
+      <p>To keep connected with us please login eith your personal info</p>
+      <center>
+      <button class="btn" id="signIn">Sign Up</button>
+      </center>
+    </div>
+    </div>
+
+
+     <div class="col-md-3 Register-page log2" id="sub-container2">
+       <form class="register-form form log2-form">
+        <h2>Sign In</h2>
+        <div class="social-icons">
+          <center>
+           <a href="#"><i class="fa fa-facebook-f"></i></a>
+           <a href="#"><i class="fa fa-google-plus"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          </center>
+        </div>
+           <p>or Use your account</p>
+        <input typr="email" placeholder="email">
+        <input type="Password" name="" placeholder="Password">
+          <p><a href="#">Forgot Password ?</a></p>
+          <center>
+          <button>Sign In</button>
+          </center>
+
+      </form>
+
+     </div>
+
+
+      <div class="col-md-3 Sign-Page log3" id="sub-container3">
+        <div class="div1">
+      <h2>Hello, Friend</h2>
+      <p>Enter your personal details and start journey with us</p>
+      <center>
+      <button class="btn " id="signUp">Sign In</button>
+      </center>
+    </div>
+      </div>
+
+
+       <div class="col-md-3 Register-page log4" id="sub-container4">
+         
+
+      <form class="Signup-form form">
+        <h2>Create Your Account</h2>
+          <div class="social-icons">
+            <center>
+           <a href="#"><i class="fa fa-facebook-f"></i></a>
+           <a href="#"><i class="fa fa-google-plus"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          </center>
+        </div>
+           <p>or Use your email for registration</p>
+            <input typr="text" placeholder="name">
+        <input typr="email" placeholder="email">
+        <input type="Password" name="" placeholder="Password">
+          <center>
+          <button>Sign Up</button>
+          </center>
+
+      </form>
+       </div>
+  </div>
+
+<!--<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>-->
+<script type="text/javascript">
+  /*const button = document.querySelector(".signUp");
+button.addEventListener("click", e => {
+  const demoEls = document.querySelectorAll(".Signup-page");
+  demoEls.forEach(el => {
+    const classes = [...el.classList];
+    el.classList.remove(...el.classList);
+    setTimeout(() => {
+      el.classList.add(...classes);
+    }, 10);
+  })
+});*/
+
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+    container.classList.add('right-panel-active');
+});
+
+signInButton.addEventListener('click', () => {
+    container.classList.remove('right-panel-active');
+  });
+signInButton.addEventListener('click', () => {
+    container.classList.remove('left-panel-active');
+});
+</script>  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+body{
+     font-family: 'Source Sans Pro', sans-serif;
+  }
+    .house{
+     background-color: #009587;
+    color: white;
+    padding: 8px 21px;
+    border-radius: 5px;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+  .navbar-brand  {
+          font-size: 28px;
+    padding: 21px;
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+  
+
+.bars {
+        display: block;
+    width: 22px;
+    height: 3px;
+    margin-top: 18px;
+    background-color: #333;
+    box-shadow: 0 5px 0 #333, 0 10px 0 #333;
+}
+.menuDropdown {
+    width: 217px;
+    background-color: #4a4a4a;
+    border: solid #a2a6a5;
+    border-width: 0 0 0 1px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 4;
+    text-align: left;
+    font-size: 14px;
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2050;
+}
+.menuDropdown>span {
+    font-size: 17px;
+    float: right;
+    line-height: 3.29px;
+    padding: 13px;
+    margin: 13px 13px 0 0;
+    cursor: pointer;
+    color: #c8c8c8;
+}
+.dropdown-menu>li>a{
+  padding: 5px 20px;
+  color: white;
+  }
+  
+  hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 174px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
